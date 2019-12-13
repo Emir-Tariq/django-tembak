@@ -1,1 +1,1 @@
-web: gunicorn django-tembak.wsgi --log-file -
+web: gunicorn xl-tembak.wsgi --log-file -

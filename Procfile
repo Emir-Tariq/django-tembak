@@ -1,0 +1,1 @@
+web: gunicorn django-tembak.wsgi --log-file -

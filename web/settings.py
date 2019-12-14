@@ -25,7 +25,8 @@ import os
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '_@zo_y89c)rn+6jyx0(v41pj$v8*z9*b8k=0^n4+fq4**8#gjw')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+# DEBUG = False
+DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = ['xl-tembak.herokuapp.com', '127.0.0.1']
 
